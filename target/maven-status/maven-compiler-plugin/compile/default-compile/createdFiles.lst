@@ -1,4 +1,14 @@
-com/wzeta21/mvc/base/config/WebInitializer.class
-com/wzeta21/mvc/base/controller/HomeController.class
-com/wzeta21/mvc/base/config/WebConfig.class
+com/wzeta21/mvc/base/service/StudentService.class
+com/wzeta21/mvc/base/service/BaseService.class
+com/wzeta21/mvc/base/mock/ClassMock.class
+com/wzeta21/mvc/base/dao/StudentDAO.class
 com/wzeta21/mvc/base/dto/FormDTO.class
+com/wzeta21/mvc/base/config/WebInitializer.class
+com/wzeta21/mvc/base/dao/ClassDAO.class
+com/wzeta21/mvc/base/dao/BaseDAO.class
+com/wzeta21/mvc/base/controller/HomeController.class
+com/wzeta21/mvc/base/model/Class.class
+com/wzeta21/mvc/base/model/Student.class
+com/wzeta21/mvc/base/mock/StudenMock.class
+com/wzeta21/mvc/base/service/ClassService.class
+com/wzeta21/mvc/base/config/WebConfig.class
