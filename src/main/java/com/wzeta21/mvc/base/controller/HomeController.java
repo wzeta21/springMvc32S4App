@@ -1,7 +1,8 @@
-package com.geowarin.mvc.base.controller;
+package com.wzeta21.mvc.base.controller;
 
 import javax.validation.Valid;
 
+import com.wzeta21.mvc.base.dto.FormDTO;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
@@ -10,8 +11,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.support.SessionStatus;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
-
-import com.geowarin.mvc.base.dto.FormDTO;
 
 @Controller
 public class HomeController {

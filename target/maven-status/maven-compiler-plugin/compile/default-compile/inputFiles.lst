@@ -1,4 +1,4 @@
-/media/zeta/docs/test_dh/spring-mvc-examples/mvc-base/src/main/java/com/geowarin/mvc/base/controller/HomeController.java
-/media/zeta/docs/test_dh/spring-mvc-examples/mvc-base/src/config/com/geowarin/mvc/base/config/WebConfig.java
-/media/zeta/docs/test_dh/spring-mvc-examples/mvc-base/src/config/com/geowarin/mvc/base/config/WebInitializer.java
-/media/zeta/docs/test_dh/spring-mvc-examples/mvc-base/src/main/java/com/geowarin/mvc/base/dto/FormDTO.java
+/media/zeta/docs/test_dh/s4/src/main/java/com/wzeta21/mvc/base/dto/FormDTO.java
+/media/zeta/docs/test_dh/s4/src/config/com/wzeta21/mvc/base/config/WebInitializer.java
+/media/zeta/docs/test_dh/s4/src/config/com/wzeta21/mvc/base/config/WebConfig.java
+/media/zeta/docs/test_dh/s4/src/main/java/com/wzeta21/mvc/base/controller/HomeController.java

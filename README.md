@@ -19,4 +19,4 @@ or
 
 Some sample controller tests with spring-mvc-test are also provided.
 
-See my blog : http://geowarin.wordpress.com/2013/01/23/complete-example-of-a-spring-mvc-3-2-project
+See my blog : http://wzeta21.wordpress.com/2013/01/23/complete-example-of-a-spring-mvc-3-2-project

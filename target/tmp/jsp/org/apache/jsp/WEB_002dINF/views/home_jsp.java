@@ -70,41 +70,47 @@ public final class home_jsp extends org.apache.jasper.runtime.HttpJspBase
       _jspx_resourceInjector = (org.glassfish.jsp.api.ResourceInjector) application.getAttribute("com.sun.appserv.jsp.resource.injector");
 
       out.write("\r\n");
+      out.write("    \r\n");
+      out.write("        \r\n");
+      out.write("            \r\n");
+      out.write("                <html>\r\n");
       out.write("\r\n");
+      out.write("                <head>\r\n");
+      out.write("                    <title>Home</title>\r\n");
+      out.write("                </head>\r\n");
       out.write("\r\n");
+      out.write("                <body>\r\n");
+      out.write("                    <div class=\"hero-unit\">\r\n");
+      out.write("                        <h1>Home</h1>\r\n");
       out.write("\r\n");
-      out.write("<html>\r\n");
-      out.write("<head>\r\n");
-      out.write("    <title>Home</title>\r\n");
-      out.write("</head>\r\n");
-      out.write("<body>\r\n");
-      out.write("\t\t<div class=\"hero-unit\">\r\n");
-      out.write("\t\t\t<h1>Home</h1>\r\n");
-      out.write("\t\t\r\n");
-      out.write("\t\t\t<p>\r\n");
-      out.write("\t\t\t\t");
+      out.write("                        <p>\r\n");
+      out.write("                            ");
       if (_jspx_meth_spring_message_0(_jspx_page_context))
         return;
       out.write("\r\n");
-      out.write("\t\t\t</p>\r\n");
-      out.write("\t\t\t<p><a class=\"btn btn-primary btn-large\" href=\"http://geowarin.wordpress.com\">");
+      out.write("                        </p>\r\n");
+      out.write("                        <p>\r\n");
+      out.write("                            <a class=\"btn btn-primary btn-large\" href=\"http://wzeta21.wordpress.com\">\r\n");
+      out.write("                                ");
       if (_jspx_meth_spring_message_1(_jspx_page_context))
         return;
-      out.write("</a></p>\r\n");
-      out.write("\t\t\t\r\n");
-      out.write("\t\t</div>\r\n");
-      out.write("\t\t\r\n");
-      out.write("\t\t<div class=\"row-fluid\">\r\n");
-      out.write("\t\t\t<div class=\"span8\">\r\n");
-      out.write("\t\t\t\r\n");
-      out.write("\t\t\t\t<div id=\"message\" class=\"alert alert-info\">\r\n");
-      out.write("\t\t\t\t\t");
+      out.write("\r\n");
+      out.write("                            </a>\r\n");
+      out.write("                        </p>\r\n");
+      out.write("\r\n");
+      out.write("                    </div>\r\n");
+      out.write("\r\n");
+      out.write("                    <div class=\"row-fluid\">\r\n");
+      out.write("                        <div class=\"span8\">\r\n");
+      out.write("\r\n");
+      out.write("                            <div id=\"message\" class=\"alert alert-info\">\r\n");
+      out.write("                                ");
       if (_jspx_meth_spring_message_2(_jspx_page_context))
         return;
       out.write("\r\n");
-      out.write("\t\t\t\t</div>\r\n");
-      out.write("\t\t\t\r\n");
-      out.write("\t\t\t\t");
+      out.write("                            </div>\r\n");
+      out.write("\r\n");
+      out.write("                            ");
       //  form:form
       org.springframework.web.servlet.tags.form.FormTag _jspx_th_form_form_0 = (org.springframework.web.servlet.tags.form.FormTag) _jspx_tagPool_form_form_modelAttribute_method_id.get(org.springframework.web.servlet.tags.form.FormTag.class);
       _jspx_th_form_form_0.setPageContext(_jspx_page_context);
@@ -118,17 +124,17 @@ public final class home_jsp extends org.apache.jasper.runtime.HttpJspBase
         if (_jspx_eval_form_form_0 != javax.servlet.jsp.tagext.Tag.SKIP_BODY) {
           do {
             out.write("\r\n");
-            out.write("\t\t\t\r\n");
-            out.write("\t\t\t\t\t");
+            out.write("\r\n");
+            out.write("                                ");
             if (_jspx_meth_spring_message_3((javax.servlet.jsp.tagext.JspTag) _jspx_th_form_form_0, _jspx_page_context, _jspx_push_body_count_form_form_0))
               return;
             out.write("\r\n");
-            out.write("\t\t\t\t  \t");
+            out.write("                                ");
             if (_jspx_meth_form_input_0((javax.servlet.jsp.tagext.JspTag) _jspx_th_form_form_0, _jspx_page_context, _jspx_push_body_count_form_form_0))
               return;
             out.write("\r\n");
-            out.write("\t\t\t \t\t\r\n");
-            out.write("\t\t\t\t\t");
+            out.write("\r\n");
+            out.write("                                ");
             //  form:errors
             org.springframework.web.servlet.tags.form.ErrorsTag _jspx_th_form_errors_0 = (org.springframework.web.servlet.tags.form.ErrorsTag) _jspx_tagPool_form_errors_path_element_cssClass_nobody.get(org.springframework.web.servlet.tags.form.ErrorsTag.class);
             _jspx_th_form_errors_0.setPageContext(_jspx_page_context);
@@ -151,15 +157,15 @@ public final class home_jsp extends org.apache.jasper.runtime.HttpJspBase
               _jspx_tagPool_form_errors_path_element_cssClass_nobody.reuse(_jspx_th_form_errors_0);
             }
             out.write("\r\n");
-            out.write("\t\t\t\t\t\r\n");
-            out.write("\t\t  \t\t\t");
+            out.write("\r\n");
+            out.write("                                ");
             if (_jspx_meth_c_if_0((javax.servlet.jsp.tagext.JspTag) _jspx_th_form_form_0, _jspx_page_context, _jspx_push_body_count_form_form_0))
               return;
             out.write("\r\n");
-            out.write("\t\t\t\t\t\r\n");
-            out.write("\t\t\t\t  \t<button type=\"submit\" class=\"btn\">Submit</button>\r\n");
-            out.write("\t\t\t\t\t\r\n");
-            out.write("\t\t\t\t");
+            out.write("\r\n");
+            out.write("                                <button type=\"submit\" class=\"btn\">Submit</button>\r\n");
+            out.write("\r\n");
+            out.write("                            ");
             int evalDoAfterBody = _jspx_th_form_form_0.doAfterBody();
             if (evalDoAfterBody != javax.servlet.jsp.tagext.BodyTag.EVAL_BODY_AGAIN)
               break;
@@ -177,10 +183,11 @@ public final class home_jsp extends org.apache.jasper.runtime.HttpJspBase
         _jspx_tagPool_form_form_modelAttribute_method_id.reuse(_jspx_th_form_form_0);
       }
       out.write("\r\n");
-      out.write("\t\t\t</div>\r\n");
-      out.write("\t\t</div>\r\n");
-      out.write("</body>\r\n");
-      out.write("</html>");
+      out.write("                        </div>\r\n");
+      out.write("                    </div>\r\n");
+      out.write("                </body>\r\n");
+      out.write("\r\n");
+      out.write("                </html>");
     } catch (Throwable t) {
       if (!(t instanceof SkipPageException)){
         out = _jspx_out;
@@ -341,13 +348,13 @@ public final class home_jsp extends org.apache.jasper.runtime.HttpJspBase
     if (_jspx_eval_c_if_0 != javax.servlet.jsp.tagext.Tag.SKIP_BODY) {
       do {
         out.write("\r\n");
-        out.write("\t\t\t\t\t\t<div id=\"message\" class=\"alert alert-success\">\r\n");
-        out.write("\t\t\t\t\t\t\t");
+        out.write("                                    <div id=\"message\" class=\"alert alert-success\">\r\n");
+        out.write("                                        ");
         if (_jspx_meth_spring_message_4((javax.servlet.jsp.tagext.JspTag) _jspx_th_c_if_0, _jspx_page_context, _jspx_push_body_count_form_form_0))
           return true;
         out.write("\r\n");
-        out.write("\t\t\t\t\t\t</div>\t\r\n");
-        out.write("\t\t\t\t\t");
+        out.write("                                    </div>\r\n");
+        out.write("                                ");
         int evalDoAfterBody = _jspx_th_c_if_0.doAfterBody();
         if (evalDoAfterBody != javax.servlet.jsp.tagext.BodyTag.EVAL_BODY_AGAIN)
           break;

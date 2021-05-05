@@ -1,4 +1,4 @@
-package com.geowarin.mvc.base.dto;
+package com.wzeta21.mvc.base.dto;
 
 import org.hibernate.validator.constraints.NotEmpty;
 

@@ -1,4 +1,4 @@
-package com.geowarin.mvc.base.config;
+package com.wzeta21.mvc.base.config;
 
 
 import javax.servlet.Filter;
@@ -11,7 +11,7 @@ import com.opensymphony.sitemesh.webapp.SiteMeshFilter;
 /**
  * http://static.springsource.org/spring-framework/docs/3.2.0.RELEASE/spring-framework-reference/html/mvc.html#mvc-container-config
  * 
- * @author Geoffroy Warin (https://github.com/geowarin)
+ * @author Geoffroy Warin (https://github.com/wzeta21)
  *
  */
 public class WebInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
