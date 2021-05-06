@@ -110,6 +110,8 @@ public class StudenMock {
                 new Class(7, "Matemáticas7", "Para aprender a sumar"),
                 new Class(8, "Matemáticas8", "Para aprender a sumar")
         )));
+
+        this.studentList = new ArrayList<>();
         this.studentList.add(e1);
         this.studentList.add(e2);
         this.studentList.add(e3);

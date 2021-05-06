@@ -1,4 +1,16 @@
+/media/zeta/docs/test_dh/s4/src/main/java/com/wzeta21/mvc/base/controller/BaseController.java
+/media/zeta/docs/test_dh/s4/src/main/java/com/wzeta21/mvc/base/mock/StudenMock.java
+/media/zeta/docs/test_dh/s4/src/main/java/com/wzeta21/mvc/base/service/ClassService.java
 /media/zeta/docs/test_dh/s4/src/main/java/com/wzeta21/mvc/base/dto/FormDTO.java
+/media/zeta/docs/test_dh/s4/src/main/java/com/wzeta21/mvc/base/model/Student.java
+/media/zeta/docs/test_dh/s4/src/main/java/com/wzeta21/mvc/base/model/Class.java
+/media/zeta/docs/test_dh/s4/src/main/java/com/wzeta21/mvc/base/dao/ClassDAO.java
+/media/zeta/docs/test_dh/s4/src/main/java/com/wzeta21/mvc/base/dao/StudentDAO.java
+/media/zeta/docs/test_dh/s4/src/main/java/com/wzeta21/mvc/base/service/StudentService.java
+/media/zeta/docs/test_dh/s4/src/main/java/com/wzeta21/mvc/base/mock/ClassMock.java
+/media/zeta/docs/test_dh/s4/src/main/java/com/wzeta21/mvc/base/controller/HomeController.java
+/media/zeta/docs/test_dh/s4/src/main/java/com/wzeta21/mvc/base/dao/BaseDAO.java
+/media/zeta/docs/test_dh/s4/src/main/java/com/wzeta21/mvc/base/service/BaseService.java
+/media/zeta/docs/test_dh/s4/src/main/java/com/wzeta21/mvc/base/controller/StudentController.java
 /media/zeta/docs/test_dh/s4/src/config/com/wzeta21/mvc/base/config/WebInitializer.java
 /media/zeta/docs/test_dh/s4/src/config/com/wzeta21/mvc/base/config/WebConfig.java
-/media/zeta/docs/test_dh/s4/src/main/java/com/wzeta21/mvc/base/controller/HomeController.java

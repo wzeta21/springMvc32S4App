@@ -2,10 +2,12 @@ package com.wzeta21.mvc.base.dao;
 
 import com.wzeta21.mvc.base.mock.ClassMock;
 import com.wzeta21.mvc.base.model.Class;
+import org.springframework.stereotype.Repository;
 
 
 import java.util.List;
 
+@Repository
 public class ClassDAO implements BaseDAO<Class>{
     private ClassMock classMock = new ClassMock();
     @Override

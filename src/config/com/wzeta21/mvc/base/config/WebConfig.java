@@ -1,5 +1,9 @@
 package com.wzeta21.mvc.base.config;
 
+import com.wzeta21.mvc.base.dao.ClassDAO;
+import com.wzeta21.mvc.base.dao.StudentDAO;
+import com.wzeta21.mvc.base.service.ClassService;
+import com.wzeta21.mvc.base.service.StudentService;
 import org.springframework.context.MessageSource;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -65,5 +69,30 @@ public class WebConfig extends WebMvcConfigurerAdapter {
 		// # -1 : never reload, 0 always reload
 		messageSource.setCacheSeconds(0);
 		return messageSource;
+	}
+
+	@Bean 
+	public StudentService studentService(){
+		StudentService std = new StudentService();
+		try{
+			StudentDAO dao = new StudentDAO();
+			std.setStudentDAO(dao);
+		}
+		catch (java.lang.NullPointerException ex){
+			new Exception(ex.getMessage());
+		}
+		return std;
+	}
+
+	@Bean
+	public ClassService classService(){
+		ClassService classService = new ClassService();
+		try {
+			ClassDAO dao = new ClassDAO();
+			classService.setClassDAO(dao);
+		}catch (Exception ex){
+			new Exception(ex.getMessage());
+		}
+		return classService;
 	}
 }

@@ -8,7 +8,7 @@ import java.util.List;
 @Service
 public class ClassService implements BaseService<Class>{
     private ClassDAO classDAO;
-    public void setClass(ClassDAO classDAO) {
+    public void setClassDAO(ClassDAO classDAO) {
         this.classDAO = classDAO;
     }
 

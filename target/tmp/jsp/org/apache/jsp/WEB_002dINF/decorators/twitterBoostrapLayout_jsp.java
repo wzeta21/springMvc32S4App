@@ -141,8 +141,8 @@ public final class twitterBoostrapLayout_jsp extends org.apache.jasper.runtime.H
       out.write("                            Logged in as <a href=\"#\" class=\"navbar-link\">Username</a>\n");
       out.write("                        </p> -->\n");
       out.write("                        <ul class=\"nav\">\n");
-      out.write("                            <li class=\"active\"><a href=\"#\">Students</a></li>\n");
-      out.write("                            <li><a href=\"#about\">Classes</a></li>\n");
+      out.write("                            <li class=\"active\"><a href=\"#\">Student</a></li>\n");
+      out.write("                            <li><a href=\"#about\">Class</a></li>\n");
       out.write("                            <li><a href=\"#contact\">Contact</a></li>\n");
       out.write("                        </ul>\n");
       out.write("                    </div>\n");
@@ -208,7 +208,7 @@ public final class twitterBoostrapLayout_jsp extends org.apache.jasper.runtime.H
       out.write("\n");
       out.write("                            <hr>\n");
       out.write("                            <footer>\n");
-      out.write("                                <p>&copy; wzeta21 2013</p>\n");
+      out.write("                                <p>&copy; wzeta21 2021</p>\n");
       out.write("                            </footer>\n");
       out.write("\n");
       out.write("                        </div>\n");

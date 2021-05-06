@@ -66,6 +66,8 @@ public class ClassMock {
             new Student(8, "Jose Carlos", "Martinez Lopez"),
             new Student(9, "Eloy", "Martinez Lopez")
             )));
+
+        classList = new ArrayList<>();
         classList.add(c1);
         classList.add(c2);
         classList.add(c3);

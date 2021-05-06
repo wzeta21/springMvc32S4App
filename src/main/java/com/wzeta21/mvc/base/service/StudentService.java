@@ -2,12 +2,14 @@ package com.wzeta21.mvc.base.service;
 
 import com.wzeta21.mvc.base.dao.StudentDAO;
 import com.wzeta21.mvc.base.model.Student;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
-
+@Service
 public class StudentService implements  BaseService<Student>{
     private StudentDAO studentDAO;
-    public void setClass(StudentDAO studentDAO) {
+    
+    public void setStudentDAO(StudentDAO studentDAO) {
         this.studentDAO = studentDAO;
     }
     @Override
