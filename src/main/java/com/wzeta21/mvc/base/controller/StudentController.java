@@ -47,6 +47,7 @@ public class StudentController {
         return "redirect:/students";
     }
 
+    @RequestMapping("/edit/{id}")
     public String editStudent(@PathVariable("id") int id, Model model){
         model.addAttribute("student", this.service.get(id));
         model.addAttribute("listStudents", this.service.getAll());
