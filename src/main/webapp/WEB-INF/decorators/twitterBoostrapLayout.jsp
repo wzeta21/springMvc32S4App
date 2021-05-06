@@ -49,16 +49,12 @@
 
                     <%@include file="boostrapNavbar.jsp"%>
 
-                        <div id="message" class="alert alert-info">
-                            <spring:message code="message.lang.instructions" />
-                        </div>
+
 
                         <div class="container-fluid">
                             <div class="row-fluid">
 
-                                <div class="span3">
-                                    <%@include file="boostrapMenu.jsp"%>
-                                </div>
+
                                 <!--/span-->
 
                                 <div class="span9">

@@ -32,7 +32,15 @@ public class ClassDAO implements BaseDAO<Class>{
 
     @Override
     public Class update(int id, Class aClass) {
-        return classMock.getClassList().set(this.classMock.getClassList().indexOf(aClass), aClass);
+        int index = 0;
+        for(Class cls: this.classMock.getClassList()){
+            if (cls.getCode() == id){
+                break;
+            }
+            index++;
+        }
+
+        return classMock.getClassList().set(index, aClass);
     }
 
     @Override

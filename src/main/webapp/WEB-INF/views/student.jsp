@@ -10,7 +10,7 @@
 
                 <body>
                     <div class="hero-unit">
-                        <h1>Student</h1>
+                        <h1>Our Students</h1>
 
                         <c:url var="addAction" value="/student/add"></c:url>
 
@@ -52,10 +52,10 @@
                                 <tr>
                                     <td colspan="2">
                                         <c:if test="${!empty student.firstName}">
-                                            <input type="submit" value="<spring:message text=" Edit Student "/>" />
+                                            <input class="btn btn-primary" type="submit" value="<spring:message text=" Edit Student "/>" />
                                         </c:if>
                                         <c:if test="${empty person.name}">
-                                            <input type="submit" value="<spring:message text=" Add Student "/>" />
+                                            <input class="btn btn-primary" type="submit" value="<spring:message text=" Add Student "/>" />
                                         </c:if>
                                     </td>
                                 </tr>
@@ -67,8 +67,8 @@
                             <table class="tg">
                                 <tr>
                                     <th width="80">Student ID</th>
-                                    <th width="120">First Name</th>
-                                    <th width="120">Last Name</th>
+                                    <th width="200">First Name</th>
+                                    <th width="200">Last Name</th>
                                     <th width="60">Edit</th>
                                     <th width="60">Delete</th>
                                 </tr>
@@ -77,8 +77,8 @@
                                         <td>${student.studentId}</td>
                                         <td>${student.firstName}</td>
                                         <td>${student.lastName}</td>
-                                        <td><a href="<c:url value='/edit/${student.studentId}' />">Edit</a></td>
-                                        <td><a href="<c:url value='/remove/${student.studentId}' />">Delete</a></td>
+                                        <td><a class="btn btn-success" href="<c:url value='/edit/${student.studentId}' />">Edit</a></td>
+                                        <td><a class="btn btn-danger" href="<c:url value='/remove/${student.studentId}' />">Delete</a></td>
                                     </tr>
                                 </c:forEach>
                             </table>
@@ -86,16 +86,7 @@
 
                     </div>
 
-                    <div class="row-fluid">
-                        <div class="span8">
 
-                            <div id="message" class="alert alert-info">
-                                <spring:message code="message.home.instructions" />
-                            </div>
-
-
-                        </div>
-                    </div>
                 </body>
 
                 </html>

@@ -17,8 +17,8 @@
                             Logged in as <a href="#" class="navbar-link">Username</a>
                         </p> -->
                         <ul class="nav">
-                            <li class="active"><a href="#">Student</a></li>
-                            <li><a href="#about">Class</a></li>
+                            <li class="active"><a href="<c:url value='/students' />">Student</a></li>
+                            <li><a href="<c:url value='/classes' />">Class</a></li>
                             <li><a href="#contact">Contact</a></li>
                         </ul>
                     </div>

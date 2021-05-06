@@ -10,8 +10,7 @@
 
                 <body>
                     <div class="hero-unit">
-                        <h1>Class</h1>
-
+                        <h1>Our Classes</h1>
                         <c:url var="addAction" value="/class/add"></c:url>
 
                         <form:form action="${addAction}" commandName="class">
@@ -52,10 +51,10 @@
                                 <tr>
                                     <td colspan="2">
                                         <c:if test="${!empty class.title}">
-                                            <input type="submit" value="<spring:message text=" Edit Class "/>" />
+                                            <input class="btn btn-primary" type="submit" value="<spring:message text=" Edit Class "/>" />
                                         </c:if>
                                         <c:if test="${empty class.description}">
-                                            <input type="submit" value="<spring:message text=" Add Class "/>" />
+                                            <input class="btn btn-primary" type="submit" value="<spring:message text=" Add Class "/>" />
                                         </c:if>
                                     </td>
                                 </tr>
@@ -77,8 +76,8 @@
                                         <td>${clss.code}</td>
                                         <td>${clss.title}</td>
                                         <td>${clss.description}</td>
-                                        <td><a href="<c:url value='/editcls/${clss.code}' />">Edit</a></td>
-                                        <td><a href="<c:url value='/removecls/${clss.code}' />">Delete</a></td>
+                                        <td><a class="btn btn-success" href="<c:url value='/editcls/${clss.code}' />">Edit</a></td>
+                                        <td><a class="btn btn-danger" href="<c:url value='/removecls/${clss.code}' />">Delete</a></td>
                                     </tr>
                                 </c:forEach>
                             </table>
@@ -86,16 +85,6 @@
 
                     </div>
 
-                    <div class="row-fluid">
-                        <div class="span8">
-
-                            <div id="message" class="alert alert-info">
-                                <spring:message code="message.home.instructions" />
-                            </div>
-
-
-                        </div>
-                    </div>
                 </body>
 
                 </html>
