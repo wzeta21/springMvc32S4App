@@ -25,6 +25,7 @@ public class StudentDAO implements BaseDAO<Student>{
 
     @Override
     public boolean add(Student student) {
+        student.setStudentId(this.studenMock.getStudentList().size() + 1);
         return  this.studenMock.getStudentList().add(student);
     }
 

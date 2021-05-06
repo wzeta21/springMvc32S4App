@@ -27,6 +27,7 @@ public class ClassDAO implements BaseDAO<Class>{
 
     @Override
     public boolean add(Class aClass) {
+        aClass.setCode(classMock.getClassList().size() + 1);
         return  classMock.getClassList().add(aClass);
     }
 
