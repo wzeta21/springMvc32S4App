@@ -30,7 +30,8 @@ public class StudentDAO implements BaseDAO<Student>{
 
     @Override
     public Student update(int id, Student student) {
-        return this.studenMock.getStudentList().set(this.studenMock.getStudentList().indexOf(student), student);
+        int index = this.studenMock.getStudentList().indexOf(student);
+        return this.studenMock.getStudentList().set(index, student);
     }
 
     @Override
