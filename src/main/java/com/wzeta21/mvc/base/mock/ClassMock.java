@@ -12,10 +12,12 @@ public class ClassMock {
     private List<Class> classList;
     public  ClassMock(){
         Class c1 = new Class(1, "Matematica1", "Para aprender a suamr");
-        Class c2 = new Class(2, "Algebra Lineal", "Para aprender a suamr");
-        Class c3 = new Class(3, "Fśica I", "Para aprender a suamr");
-        Class c4 = new Class(4, "Fisica II", "Para aprender a suamr");
-        Class c5 = new Class(5, "Programación I", "Para aprender a suamr");
+        Class c2 = new Class(2, "Algebra Lineal", "none");
+        Class c3 = new Class(3, "Física I", "Sobre aspectos de la fisica");
+        Class c4 = new Class(4, "Fisica II", "Fisica para apacionados");
+        Class c5 = new Class(5, "Programación I", "para aprender a usar un teclado de pc.");
+        Class c6 = new Class(6, "Programación II", "para aprender a usar un raton de pc.");
+        Class c7 = new Class(7, "Lenguajes de programación", "Para conocer la existencia de lenguaes de ...");
 
         classList = new ArrayList<>();
         classList.add(c1);
@@ -23,6 +25,8 @@ public class ClassMock {
         classList.add(c3);
         classList.add(c4);
         classList.add(c5);
+        classList.add(c6);
+        classList.add(c7);
     }
     public List<Class> getClassList() {
         return classList;
