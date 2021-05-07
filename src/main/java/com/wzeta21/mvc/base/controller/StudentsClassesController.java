@@ -31,6 +31,7 @@ public class StudentsClassesController {
 		Student std = this.studentService.get(id);
         model.addAttribute("student", std);
         model.addAttribute("listClasses", std.getClasses());
+        model.addAttribute("subjectsList", this.classService.getAll());
         return "/studentclasses";
     }
 	@RequestMapping("/class/{id}/students")
@@ -42,9 +43,22 @@ public class StudentsClassesController {
     }
 	
 	@RequestMapping("/subject/{code}/student/{id}/remove")
-    public String removeClass(@PathVariable("code") int code, @PathVariable("id") int id){
+    public String removeStudentFromASubject(@PathVariable("code") int code, @PathVariable("id") int id){
 		Student std = this.classService.get(code).getStudents().get(id);
         this.classService.removeStudente(code, std);
         return "redirect:/class/"+code+"/students";
+    }
+	@RequestMapping("/student/{id}/subject/{code}/remove")
+    public String removeSubjectFromAStudent(@PathVariable("id") int id, @PathVariable("code") int code){
+		Class cls = this.studentService.get(id).getClasses().get(code);
+        this.studentService.removeSubject(id, cls);
+        return "redirect:/student/"+id+"/classes";
+    }
+	
+	@RequestMapping("/student/{id}/subject/{code}/add")
+    public String addSubjectToStudent(@PathVariable("id") int id, @PathVariable("code") int code){
+		Class cls = this.classService.get(code);
+        this.studentService.get(id).getClasses().add(cls);
+        return "redirect:/student/"+id+"/classes";
     }
 }

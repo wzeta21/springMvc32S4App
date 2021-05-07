@@ -41,4 +41,8 @@ public class StudentService implements  BaseService<Student>, IStudentService{
 	public List<Class> getClasses(int id) {		
 		return this.studentDAO.get(id).getClasses();
 	}
+	@Override
+	public boolean removeSubject(int studentId, Class cls) {		
+		return this.studentDAO.get(studentId).getClasses().remove(cls);
+	}
 }

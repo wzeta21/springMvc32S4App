@@ -19,16 +19,10 @@
                                     <ul class="list-group" id="myList">
                                         <c:forEach items="${listStudents}" var="student">
                                             <li class="list-group-item">
-                                                <div class="row row-inline">
-                                                    <div class="col-sm">
-                                                        ${student}
-                                                    </div>
-                                                    <div class="col-sm">
-                                                        <a class="btn btn-danger btn-xs" href="<c:url value='/subject/${subject.code}/student/${student.studentId}/remove' />">
-                                                            <span class="glyphicon glyphicon-trash"></span>
-                                                        </a>
-                                                    </div>
-                                                </div>
+                                                ${student}
+                                                <a class="btn btn-danger btn-xs" href="<c:url value='/subject/${subject.code}/student/${student.studentId}/remove' />">
+                                                    <span class="glyphicon glyphicon-trash"></span>
+                                                </a>
                                             </li>
                                         </c:forEach>
                                     </ul>
