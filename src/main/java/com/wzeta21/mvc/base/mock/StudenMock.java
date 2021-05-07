@@ -11,105 +11,15 @@ public class StudenMock {
     private List<Student> studentList;
 
     public StudenMock(){
-        Student e1 = new Student(1, "Jose Manuel", "Martinez Lopez", new ArrayList<>(Arrays.asList(
-                new Class(1, "Matemáticas1", "Para aprender a sumar"),
-                new Class(2, "Matemáticas2", "Para aprender a sumar"),
-                new Class(9, "Matemáticas8", "Para aprender a sumar"),
-                new Class(3, "Matemáticas3", "Para aprender a sumar"),
-                new Class(4, "Matemáticas4", "Para aprender a sumar"),
-                new Class(5, "Matemáticas5", "Para aprender a sumar"),
-                new Class(6, "Matemáticas6", "Para aprender a sumar"),
-                new Class(7, "Matemáticas7", "Para aprender a sumar"),
-                new Class(8, "Matemáticas8", "Para aprender a sumar")
-        )));
-        Student e2 = new Student(2, "Jose Jose", "Martinez Lopez", new ArrayList<>(Arrays.asList(
-                new Class(1, "Matemáticas1", "Para aprender a sumar"),
-                new Class(2, "Matemáticas2", "Para aprender a sumar"),
-                new Class(9, "Matemáticas8", "Para aprender a sumar"),
-                new Class(3, "Matemáticas3", "Para aprender a sumar"),
-                new Class(4, "Matemáticas4", "Para aprender a sumar"),
-                new Class(5, "Matemáticas5", "Para aprender a sumar"),
-                new Class(6, "Matemáticas6", "Para aprender a sumar"),
-                new Class(7, "Matemáticas7", "Para aprender a sumar"),
-                new Class(8, "Matemáticas8", "Para aprender a sumar")
-        )));
-        Student e3 = new Student(3, "Jose Maria", "Martinez Lopez", new ArrayList<>(Arrays.asList(
-                new Class(1, "Matemáticas1", "Para aprender a sumar"),
-                new Class(2, "Matemáticas2", "Para aprender a sumar"),
-                new Class(9, "Matemáticas8", "Para aprender a sumar"),
-                new Class(3, "Matemáticas3", "Para aprender a sumar"),
-                new Class(4, "Matemáticas4", "Para aprender a sumar"),
-                new Class(5, "Matemáticas5", "Para aprender a sumar"),
-                new Class(6, "Matemáticas6", "Para aprender a sumar"),
-                new Class(7, "Matemáticas7", "Para aprender a sumar"),
-                new Class(8, "Matemáticas8", "Para aprender a sumar")
-        )));
-        Student e4 = new Student(4, "Jose Luis", "Martinez Lopez", new ArrayList<>(Arrays.asList(
-                new Class(1, "Matemáticas1", "Para aprender a sumar"),
-                new Class(2, "Matemáticas2", "Para aprender a sumar"),
-                new Class(9, "Matemáticas8", "Para aprender a sumar"),
-                new Class(3, "Matemáticas3", "Para aprender a sumar"),
-                new Class(4, "Matemáticas4", "Para aprender a sumar"),
-                new Class(5, "Matemáticas5", "Para aprender a sumar"),
-                new Class(6, "Matemáticas6", "Para aprender a sumar"),
-                new Class(7, "Matemáticas7", "Para aprender a sumar"),
-                new Class(8, "Matemáticas8", "Para aprender a sumar")
-        )));
-        Student e5 = new Student(5, "Maria Miriam", "Martinez Lopez", new ArrayList<>(Arrays.asList(
-                new Class(1, "Matemáticas1", "Para aprender a sumar"),
-                new Class(2, "Matemáticas2", "Para aprender a sumar"),
-                new Class(9, "Matemáticas8", "Para aprender a sumar"),
-                new Class(3, "Matemáticas3", "Para aprender a sumar"),
-                new Class(4, "Matemáticas4", "Para aprender a sumar"),
-                new Class(5, "Matemáticas5", "Para aprender a sumar"),
-                new Class(6, "Matemáticas6", "Para aprender a sumar"),
-                new Class(7, "Matemáticas7", "Para aprender a sumar"),
-                new Class(8, "Matemáticas8", "Para aprender a sumar")
-        )));
-        Student e6 = new Student(6, "Luis Miguel", "Martinez Lopez", new ArrayList<>(Arrays.asList(
-                new Class(1, "Matemáticas1", "Para aprender a sumar"),
-                new Class(2, "Matemáticas2", "Para aprender a sumar"),
-                new Class(9, "Matemáticas8", "Para aprender a sumar"),
-                new Class(3, "Matemáticas3", "Para aprender a sumar"),
-                new Class(4, "Matemáticas4", "Para aprender a sumar"),
-                new Class(5, "Matemáticas5", "Para aprender a sumar"),
-                new Class(6, "Matemáticas6", "Para aprender a sumar"),
-                new Class(7, "Matemáticas7", "Para aprender a sumar"),
-                new Class(8, "Matemáticas8", "Para aprender a sumar")
-        )));
-        Student e7 = new Student(7, "Luis Carlos", "Martinez Lopez", new ArrayList<>(Arrays.asList(
-                new Class(1, "Matemáticas1", "Para aprender a sumar"),
-                new Class(2, "Matemáticas2", "Para aprender a sumar"),
-                new Class(9, "Matemáticas8", "Para aprender a sumar"),
-                new Class(3, "Matemáticas3", "Para aprender a sumar"),
-                new Class(4, "Matemáticas4", "Para aprender a sumar"),
-                new Class(5, "Matemáticas5", "Para aprender a sumar"),
-                new Class(6, "Matemáticas6", "Para aprender a sumar"),
-                new Class(7, "Matemáticas7", "Para aprender a sumar"),
-                new Class(8, "Matemáticas8", "Para aprender a sumar")
-        )));
-        Student e8 = new Student(8, "Jose Carlos", "Martinez Lopez", new ArrayList<>(Arrays.asList(
-                new Class(1, "Matemáticas1", "Para aprender a sumar"),
-                new Class(2, "Matemáticas2", "Para aprender a sumar"),
-                new Class(9, "Matemáticas8", "Para aprender a sumar"),
-                new Class(3, "Matemáticas3", "Para aprender a sumar"),
-                new Class(4, "Matemáticas4", "Para aprender a sumar"),
-                new Class(5, "Matemáticas5", "Para aprender a sumar"),
-                new Class(6, "Matemáticas6", "Para aprender a sumar"),
-                new Class(7, "Matemáticas7", "Para aprender a sumar"),
-                new Class(8, "Matemáticas8", "Para aprender a sumar")
-        )));
-        Student e9 = new Student(9, "Eloy", "Martinez Lopez", new ArrayList<>(Arrays.asList(
-                new Class(1, "Matemáticas1", "Para aprender a sumar"),
-                new Class(2, "Matemáticas2", "Para aprender a sumar"),
-                new Class(9, "Matemáticas8", "Para aprender a sumar"),
-                new Class(3, "Matemáticas3", "Para aprender a sumar"),
-                new Class(4, "Matemáticas4", "Para aprender a sumar"),
-                new Class(5, "Matemáticas5", "Para aprender a sumar"),
-                new Class(6, "Matemáticas6", "Para aprender a sumar"),
-                new Class(7, "Matemáticas7", "Para aprender a sumar"),
-                new Class(8, "Matemáticas8", "Para aprender a sumar")
-        )));
+        Student e1 = new Student(1, "Jose Manuel", "Martinez Lopez");
+        Student e2 = new Student(2, "Jose Jose", "Martinez Lopez");
+        Student e3 = new Student(3, "Jose Maria", "Martinez Lopez");
+        Student e4 = new Student(4, "Jose Luis", "Martinez Lopez");
+        Student e5 = new Student(5, "Maria Miriam", "Martinez Lopez");
+        Student e6 = new Student(6, "Luis Miguel", "Martinez Lopez");
+        Student e7 = new Student(7, "Luis Carlos", "Martinez Lopez");
+        Student e8 = new Student(8, "Jose Carlos", "Martinez Lopez");
+        Student e9 = new Student(9, "Eloy", "Martinez Lopez");
 
         this.studentList = new ArrayList<>();
         this.studentList.add(e1);

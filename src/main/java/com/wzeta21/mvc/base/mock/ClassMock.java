@@ -11,61 +11,11 @@ public class ClassMock {
 
     private List<Class> classList;
     public  ClassMock(){
-        Class c1 = new Class(1, "Matematica1", "Para aprender a suamr", new ArrayList<Student>(Arrays.asList(
-            new Student(1, "Jose Manuel", "Martinez Lopez"),
-            new Student(2, "Jose Jose", "Martinez Lopez"),
-            new Student(3, "Jose Maria", "Martinez Lopez"),
-            new Student(4, "Jose Luis", "Martinez Lopez"),
-            new Student(5, "Maria Miriam", "Martinez Lopez"),
-            new Student(6, "Luis Miguel", "Martinez Lopez"),
-            new Student(7, "Luis Carlos", "Martinez Lopez"),
-            new Student(8, "Jose Carlos", "Martinez Lopez"),
-            new Student(9, "Eloy", "Martinez Lopez")
-            )));
-        Class c2 = new Class(2, "Algebra Lineal", "Para aprender a suamr", new ArrayList<Student>(Arrays.asList(
-            new Student(1, "Jose Manuel", "Martinez Lopez"),
-            new Student(2, "Jose Jose", "Martinez Lopez"),
-            new Student(3, "Jose Maria", "Martinez Lopez"),
-            new Student(4, "Jose Luis", "Martinez Lopez"),
-            new Student(5, "Maria Miriam", "Martinez Lopez"),
-            new Student(6, "Luis Miguel", "Martinez Lopez"),
-            new Student(7, "Luis Carlos", "Martinez Lopez"),
-            new Student(8, "Jose Carlos", "Martinez Lopez"),
-            new Student(9, "Eloy", "Martinez Lopez")
-            )));
-        Class c3 = new Class(3, "Fśica I", "Para aprender a suamr", new ArrayList<Student>(Arrays.asList(
-            new Student(1, "Jose Manuel", "Martinez Lopez"),
-            new Student(2, "Jose Jose", "Martinez Lopez"),
-            new Student(3, "Jose Maria", "Martinez Lopez"),
-            new Student(4, "Jose Luis", "Martinez Lopez"),
-            new Student(5, "Maria Miriam", "Martinez Lopez"),
-            new Student(6, "Luis Miguel", "Martinez Lopez"),
-            new Student(7, "Luis Carlos", "Martinez Lopez"),
-            new Student(8, "Jose Carlos", "Martinez Lopez"),
-            new Student(9, "Eloy", "Martinez Lopez")
-            )));
-        Class c4 = new Class(4, "Fisica II", "Para aprender a suamr", new ArrayList<Student>(Arrays.asList(
-            new Student(1, "Jose Manuel", "Martinez Lopez"),
-            new Student(2, "Jose Jose", "Martinez Lopez"),
-            new Student(3, "Jose Maria", "Martinez Lopez"),
-            new Student(4, "Jose Luis", "Martinez Lopez"),
-            new Student(5, "Maria Miriam", "Martinez Lopez"),
-            new Student(6, "Luis Miguel", "Martinez Lopez"),
-            new Student(7, "Luis Carlos", "Martinez Lopez"),
-            new Student(8, "Jose Carlos", "Martinez Lopez"),
-            new Student(9, "Eloy", "Martinez Lopez")
-            )));
-        Class c5 = new Class(5, "Programación I", "Para aprender a suamr", new ArrayList<Student>(Arrays.asList(
-            new Student(1, "Jose Manuel", "Martinez Lopez"),
-            new Student(2, "Jose Jose", "Martinez Lopez"),
-            new Student(3, "Jose Maria", "Martinez Lopez"),
-            new Student(4, "Jose Luis", "Martinez Lopez"),
-            new Student(5, "Maria Miriam", "Martinez Lopez"),
-            new Student(6, "Luis Miguel", "Martinez Lopez"),
-            new Student(7, "Luis Carlos", "Martinez Lopez"),
-            new Student(8, "Jose Carlos", "Martinez Lopez"),
-            new Student(9, "Eloy", "Martinez Lopez")
-            )));
+        Class c1 = new Class(1, "Matematica1", "Para aprender a suamr");
+        Class c2 = new Class(2, "Algebra Lineal", "Para aprender a suamr");
+        Class c3 = new Class(3, "Fśica I", "Para aprender a suamr");
+        Class c4 = new Class(4, "Fisica II", "Para aprender a suamr");
+        Class c5 = new Class(5, "Programación I", "Para aprender a suamr");
 
         classList = new ArrayList<>();
         classList.add(c1);

@@ -39,6 +39,7 @@ public class StudentsClassesController {
 		Class cls = this.classService.get(id);
         model.addAttribute("subject", cls);
         model.addAttribute("listStudents", cls.getStudents());
+        model.addAttribute("allStudents",this.studentService.getAll());
         return "/classStudents";
     }
 	
@@ -60,5 +61,12 @@ public class StudentsClassesController {
 		Class cls = this.classService.get(code);
         this.studentService.get(id).getClasses().add(cls);
         return "redirect:/student/"+id+"/classes";
+    }
+	
+	@RequestMapping("/subject/{code}/student/{id}/add")
+    public String addStudetnToSubject(@PathVariable("code") int code, @PathVariable("id") int id){
+		Student std = this.studentService.get(id);
+        this.classService.get(code).getStudents().add(std);
+        return "redirect:/class/"+code+"/students";
     }
 }

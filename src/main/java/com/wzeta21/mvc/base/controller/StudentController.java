@@ -1,6 +1,5 @@
 package com.wzeta21.mvc.base.controller;
 
-import com.wzeta21.mvc.base.dao.StudentDAO;
 import com.wzeta21.mvc.base.model.Student;
 import com.wzeta21.mvc.base.service.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;

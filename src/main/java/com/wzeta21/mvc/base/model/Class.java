@@ -1,5 +1,6 @@
 package com.wzeta21.mvc.base.model;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Class {
@@ -46,6 +47,8 @@ public class Class {
     }
 
     public List<Student> getStudents() {
+    	if (students == null)
+    		students = new ArrayList<>();
         return students;
     }
 

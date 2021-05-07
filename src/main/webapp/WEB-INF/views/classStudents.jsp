@@ -14,6 +14,19 @@
                             <div class="panel panel-default">
                                 <div class="panel-heading">
                                     <h3 class="panel-title"> The <span class="badge">${subject}</span> subject has follow students</h3>
+                                    <div class="dropdown">
+                                        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Select a student to add
+                                            <span class="caret"></span></button>
+                                        <ul class="dropdown-menu">
+                                            <c:forEach items="${allStudents}" var="std">
+                                                <li class="list-group-item">
+                                                    <a href="<c:url value='/subject/${subject.code}/student/${std.studentId}/add' />">
+                                                    ${std}
+                                                    </a>
+                                                </li>
+                                            </c:forEach>
+                                        </ul>
+                                    </div>
                                 </div>
                                 <div class="panel-body">
                                     <ul class="list-group" id="myList">
