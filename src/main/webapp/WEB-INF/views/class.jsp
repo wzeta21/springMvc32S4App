@@ -79,6 +79,9 @@
                                                             <a class="btn btn-danger btn-xs" href="<c:url value='/removecls/${clss.code}' />">
                                                                 <span class="glyphicon glyphicon-trash"></span>
                                                             </a>
+                                                            <a class="btn btn-success btn-xs" href="<c:url value='/class/${clss.code}/students' />">
+                                                                <span class="glyphicon glyphicon-list"></span> Students
+                                                            </a>
                                                         </td>
 
                                                     </tr>

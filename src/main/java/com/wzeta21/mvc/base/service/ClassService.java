@@ -2,11 +2,13 @@ package com.wzeta21.mvc.base.service;
 
 import com.wzeta21.mvc.base.dao.ClassDAO;
 import com.wzeta21.mvc.base.model.Class;
+import com.wzeta21.mvc.base.model.Student;
+
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 @Service
-public class ClassService implements BaseService<Class>{
+public class ClassService implements BaseService<Class>, IClassService{
     private ClassDAO classDAO;
     public void setClassDAO(ClassDAO classDAO) {
         this.classDAO = classDAO;
@@ -36,4 +38,9 @@ public class ClassService implements BaseService<Class>{
     public boolean delete(int id) {
        return this.classDAO.delete(id);
     }
+
+	@Override
+	public boolean removeStudente(int classId, Student std) {		
+		return this.classDAO.get(classId).getStudents().remove(std);
+	}
 }

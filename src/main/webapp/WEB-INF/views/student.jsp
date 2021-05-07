@@ -79,7 +79,7 @@
                                                                 <span class="glyphicon glyphicon-trash"></span>
                                                             </a>
                                                             <a class="btn btn-success btn-xs" href="<c:url value='/student/${student.studentId}/classes' />">
-                                                                <span class="glyphicon glyphicon-list"></span> My Classes
+                                                                <span class="glyphicon glyphicon-list"></span> My Subjects
                                                             </a>
                                                         </td>
 

@@ -36,8 +36,15 @@ public class StudentsClassesController {
 	@RequestMapping("/class/{id}/students")
     public String editClass(@PathVariable("id") int id, Model model){
 		Class cls = this.classService.get(id);
-        model.addAttribute("student", cls);
+        model.addAttribute("subject", cls);
         model.addAttribute("listStudents", cls.getStudents());
         return "/classStudents";
+    }
+	
+	@RequestMapping("/subject/{code}/student/{id}/remove")
+    public String removeClass(@PathVariable("code") int code, @PathVariable("id") int id){
+		Student std = this.classService.get(code).getStudents().get(id);
+        this.classService.removeStudente(code, std);
+        return "redirect:/class/"+code+"/students";
     }
 }
