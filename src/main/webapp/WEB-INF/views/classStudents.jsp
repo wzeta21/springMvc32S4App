@@ -13,29 +13,41 @@
                         <div class="container">
                             <div class="panel panel-default">
                                 <div class="panel-heading">
-                                    <h3 class="panel-title"> The <span class="badge">${subject}</span> subject has follow students</h3>
-                                    <div class="dropdown">
-                                        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Select a student to add
-                                            <span class="caret"></span></button>
-                                        <ul class="dropdown-menu">
-                                            <c:forEach items="${allStudents}" var="std">
-                                                <li class="list-group-item">
-                                                    <a href="<c:url value='/subject/${subject.code}/student/${std.studentId}/add' />">
-                                                    ${std}
-                                                    </a>
-                                                </li>
-                                            </c:forEach>
-                                        </ul>
+                                    <div class="row">
+                                        <div class="col-sm-9">
+                                            <h3 class="panel-title"> The <span class="badge">${subject}</span> subject has follow students</h3>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <div class="dropdown pull-right">
+                                                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Select a student to add
+                                                    <span class="caret"></span></button>
+                                                <ul class="dropdown-menu">
+                                                    <c:forEach items="${allStudents}" var="std">
+                                                        <li class="list-group-item">
+                                                            <a href="<c:url value='/subject/${subject.code}/student/${std.studentId}/add' />">
+                                                            ${std}
+                                                            </a>
+                                                        </li>
+                                                    </c:forEach>
+                                                </ul>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="panel-body">
                                     <ul class="list-group" id="myList">
                                         <c:forEach items="${listStudents}" var="student">
                                             <li class="list-group-item">
-                                                ${student}
-                                                <a class="btn btn-danger btn-xs" href="<c:url value='/subject/${subject.code}/student/${student.studentId}/remove' />">
-                                                    <span class="glyphicon glyphicon-trash"></span>
-                                                </a>
+                                                <div class="row">
+                                                    <div class="col-sm-10">
+                                                        ${student}
+                                                    </div>
+                                                    <div class="col-sm-2">
+                                                        <a class="btn btn-danger btn-xs pull-right" href="<c:url value='/subject/${subject.code}/student/${student.studentId}/remove' />">
+                                                            <span class="glyphicon glyphicon-trash"></span>
+                                                        </a>
+                                                    </div>
+                                                </div>
                                             </li>
                                         </c:forEach>
                                     </ul>
