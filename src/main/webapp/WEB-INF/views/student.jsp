@@ -78,7 +78,7 @@
                                                             <a class="btn btn-danger btn-xs" href="<c:url value='/remove/${student.studentId}' />">
                                                                 <span class="glyphicon glyphicon-trash"></span>
                                                             </a>
-                                                            <a class="btn btn-success btn-xs" href="<c:url value='/remove/${student.studentId}' />">
+                                                            <a class="btn btn-success btn-xs" href="<c:url value='/student/${student.studentId}/classes' />">
                                                                 <span class="glyphicon glyphicon-list"></span> My Classes
                                                             </a>
                                                         </td>
