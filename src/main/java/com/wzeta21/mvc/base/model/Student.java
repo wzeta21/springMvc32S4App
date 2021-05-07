@@ -48,7 +48,7 @@ public class Student {
     }
 
     public void setClasses(List<Class> classes) {
-        classes = classes;
+        this.classes = classes;
     }
     @Override
     public String toString(){

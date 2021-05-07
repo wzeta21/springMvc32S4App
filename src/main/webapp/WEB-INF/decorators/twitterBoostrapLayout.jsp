@@ -15,7 +15,10 @@
                         <dec:title default="mvc-java-init" />
                     </title>
 
-                    <link href="resources/css/bootstrap.min.css" rel="stylesheet">
+                    <!-- <link href="resources/css/bootstrap.min.css" rel="stylesheet"> -->
+                    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+                    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
                     <style type="text/css">
                         body {
                             padding-top: 60px;
@@ -27,7 +30,7 @@
                         }
                     </style>
                     <!-- See http://twitter.github.com/bootstrap/scaffolding.html#responsive -->
-                    <link href="resources/css/bootstrap-responsive.min.css" rel="stylesheet" />
+                    <!-- <link href="resources/css/bootstrap-responsive.min.css" rel="stylesheet" /> -->
 
                     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
                     <!--[if lt IE 9]>
@@ -46,34 +49,25 @@
                 </head>
 
                 <body>
-
                     <%@include file="boostrapNavbar.jsp"%>
-
-
-
                         <div class="container-fluid">
                             <div class="row-fluid">
-
-
                                 <!--/span-->
 
                                 <div class="span9">
                                     <!--Body content-->
                                     <dec:body />
                                 </div>
-
                             </div>
-
                             <hr>
                             <footer>
                                 <p>&copy; wzeta21 2021</p>
                             </footer>
-
                         </div>
                         <!--/.container-fluid-->
 
-                        <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
-                        <script src="resources/js/bootstrap.min.js" type="text/javascript"></script>
+                        <!-- <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+                        <script src="resources/js/bootstrap.min.js" type="text/javascript"></script> -->
                 </body>
 
                 </html>
